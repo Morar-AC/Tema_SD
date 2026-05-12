@@ -25,7 +25,7 @@ void insert(int x) {
         minhp.pop();
     }
 }
-int getMedian() {
+int Median() {
     if (maxhp.size() > minhp.size()) {
 
 
@@ -43,7 +43,7 @@ int main()
     insert(1);
     insert(4);
     insert(3);
-    cout << getMedian();
+    cout << Median();
 
 
 
